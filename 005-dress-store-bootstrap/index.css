@@ -59,14 +59,10 @@ padding: 1rem 1rem;
   background-size: cover;
   background-position: center;
 }
-
-.section3 img{
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-
+.section3 .col{
+background: white;
 }
+
 
 .nextPage{
   position:relative;
@@ -86,9 +82,11 @@ footer img{
 }
 
 .image-fluid img {
-  width: 100%;
-  height: auto;
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
 }
+
 
 /* Styles for screens between 576px and 767.98px (Small devices) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -97,10 +95,7 @@ footer img{
     height: 42px;
     width: 42px;
   }
-  .image-fluid img {
-    width: 100%;
-    height: auto;
-}
+
 
 
 }
@@ -130,11 +125,6 @@ footer img{
     align-items: flex-start;
    
   }
-  .image-fluid img {
-    width: 100%;
-    height: auto;
-}
-
 
 
 }
@@ -164,10 +154,7 @@ footer img{
     align-items: flex-start;
    
   }
-  .image-fluid img {
-    width: 100%;
-    height: auto;
-}
+
 
 
 }
@@ -198,12 +185,6 @@ footer img{
     align-items: flex-start;
    
   }
-
-  .image-fluid img {
-    width: 100%;
-    height: auto;
-}
-
 
 }
 
